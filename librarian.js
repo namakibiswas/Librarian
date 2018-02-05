@@ -9,6 +9,7 @@ var library = [
 
 /* Task 1 */
 function getBookTitle( index ){
+  return library[index].title;
   //add code
 }
 
@@ -16,13 +17,19 @@ console.log(getBookTitle(3));
 
 /* Task 3 */
 function addBook( book ){
+  library.push(book);
+  return library;
   //add code
 }
 
 var newBook = {};
 console.log(addBook(newBook));
 
-/* Task 4 */
+myarray.push({
+    "title": 'Creniel',
+    "year": '2012'
+    "Author": 'Muhammad Jafar Iqbal'
+});
 function bookByAuthor(){
   //add code
 }
